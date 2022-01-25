@@ -1,0 +1,25 @@
+{
+  "name": "demo-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/main.js -o dist"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankur12-1610/demo-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankur12-1610/demo-action/issues"
+  },
+  "homepage": "https://github.com/ankur12-1610/demo-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.33.1"
+  }
+}
