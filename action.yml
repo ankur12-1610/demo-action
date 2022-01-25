@@ -1,0 +1,19 @@
+name: Demo Issue Action 🛰
+description: Comments on the newly opened issue.
+author: ankur12-1610 <anknerd.12@gmail.com>
+
+inputs:
+  GITHUB_TOKEN:
+    required: true
+    description: The Github access token.
+  ISSUE_COMMENT:
+    required: true
+    description: The comment to be added to the issue.
+
+branding:
+  color: blue
+  icon: tag
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
